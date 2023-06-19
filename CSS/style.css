@@ -6,6 +6,9 @@
 }
 
 /**/
+.dashed-border{
+    border: 2px dashed black;
+}
 .w-50{
     width: 50%;
 }
@@ -22,18 +25,31 @@
     align-items: center;
 }
 
+/*header*/
 header{
     min-height: 100px;
     background-color: hsl(194.74deg 53.27% 79.02%);
 }
 
-div{
+header > div{
     height: 50px;
     background-color: hsl(42.9deg 74.4% 49.02%);
 }
 section{
     height: 100%;
     width: calc(50% / 2);
-    border: 2px dashed black;
 }
 
+/*main*/
+main{
+    min-height: 500px;
+}
+.blue-container{
+    height: 500px;
+    background-color: #00008b;
+}
+.pink-container{
+    background-color: hsl(300deg 76.06% 72.16%);
+    width: 60%;
+    height:400px;
+}
