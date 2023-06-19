@@ -1,0 +1,39 @@
+/*Generiche*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+.w-50{
+    width: 50%;
+}
+
+.container-flex{
+    display: flex;
+}
+.container{ 
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.align-center{
+    align-items: center;
+}
+
+header{
+    min-height: 100px;
+    background-color: hsl(194.74deg 53.27% 79.02%);
+}
+
+div{
+    height: 50px;
+    background-color: hsl(42.9deg 74.4% 49.02%);
+}
+section{
+    height: 100%;
+    width: calc(50% / 2);
+    border: 2px dashed black;
+}
+
