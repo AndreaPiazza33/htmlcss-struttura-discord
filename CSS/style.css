@@ -35,6 +35,12 @@
 
 
 /*height*/
+.h-30{
+    height: 30px;
+}
+.h-100{
+    height: 100px;
+}
 .h-400{
     height: 400px;
 }
@@ -59,6 +65,16 @@
 
 .align-center{
     align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center-items{
+    align-self: center;
 }
 
 /*header*/
@@ -108,6 +124,7 @@ main{
 
 /*footer*/
 footer{
+    min-height: 100px;
     background-color: hsl(205.71deg 9.09% 15.1%);
 }
 .column-section{
@@ -117,4 +134,7 @@ footer > hr{
     color: hsl(0deg 0.99% 80.2%);
     height: 2px;
 }
-
+.aquamarine-container{
+    height: 50px;
+    background-color: hsl(159.84deg 100% 74.9%);
+}
