@@ -9,10 +9,16 @@
 .dashed-border{
     border: 2px dashed black;
 }
+.dashed-border-white{
+    border: 2px dashed white;
+}
 
 /*width*/
 .w-25{
     width: 25%;
+}
+.w-30{
+    width: 30%;
 }
 .w-40{
     width: 40%;
@@ -22,6 +28,9 @@
 }
 .w-60{
     width: 60%;
+}
+.w-70{
+    width: 70%;
 }
 
 
@@ -90,5 +99,22 @@ main{
     background-color: #228b22;
     width: 100%;
 }
+.salmon-container{
+    background-color: hsl(0deg 78.87% 72.16%);
+}
+.teal-container{
+    background-color:hsl(176.71deg 69.52% 41.18%);
+}
 
+/*footer*/
+footer{
+    background-color: hsl(205.71deg 9.09% 15.1%);
+}
+.column-section{
+    width: calc(100% / 4);
+}
+footer > hr{
+    color: hsl(0deg 0.99% 80.2%);
+    height: 2px;
+}
 
