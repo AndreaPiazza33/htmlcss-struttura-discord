@@ -11,22 +11,32 @@
 }
 
 /*width*/
-.w-50{
-    width: 50%;
-}
 .w-25{
     width: 25%;
 }
-.w-30{
-    width: 30%;
+.w-40{
+    width: 40%;
 }
-.w-70{
-    width: 70%;
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
 }
 
+
 /*height*/
+.h-400{
+    height: 400px;
+}
 .h-500{
     height: 500px;
+}
+.h-800{
+    height: 800px;
+}
+.h-1000{
+    height: 1000px;
 }
 
 /*container*/
@@ -52,7 +62,7 @@ header > div{
     height: 50px;
     background-color: hsl(42.9deg 74.4% 49.02%);
 }
-section{
+div > section{
     height: 100%;
 }
 
@@ -66,16 +76,19 @@ main{
 .pink-container{
     background-color: hsl(300deg 76.06% 72.16%);
     width: 60%;
-    height:400px;
 }
 .lightblue-container{
     background-color: hsl(209.6deg 100% 55.88%);
-    height: 400px;
 }
 .lightpink-container{
     background-color: hsl(349.52deg 100% 87.65%);
-    height: 400px;
 }
 .container-gray{
     background-color: hsl(0deg 0% 82.75%);
 }
+.green-container{
+    background-color: #228b22;
+    width: 100%;
+}
+
+
